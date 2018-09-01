@@ -7,7 +7,7 @@ router.get('/test', userController.test);
 
 //acutal routes
 router.post('/create', userController.create);  
-//router.get('/login/:username', userController.login); 
+router.post('/login', userController.login); 
 //router.put('/update/:username', userController.update); 
 
 module.exports = router; 
